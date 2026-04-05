@@ -3,7 +3,7 @@
 ### Case 1 (Normal)
 **Input:**
 - Name: Sydney Adamu
-- - Position: Marketing Coordinator
+- Position: Marketing Coordinator
 - Start Date: May 4, 2026
 - Base Pay: $65,000/year
 - Bonus Eligibility: 8% annual bonus
@@ -11,7 +11,7 @@
 
 **What a good output should do:**
 Produce a complete, professional offer letter covering the role, start date, and compensation clearly. Tone should be warm but professional. No invented details beyond what was provided.
-
+---
 ### Case 2 (Normal)
 **Input:**
 - Name: Maddie Rooney
@@ -23,7 +23,7 @@ Produce a complete, professional offer letter covering the role, start date, and
 
 **What a good output should do:**
 Same structure as Case 1 but for a sales role. Letter should not assume or invent a commission structure beyond the bonus eligibility provided. Confirms the template generalizes across departments.
-
+---
 ### Case 3 (**Edge Case**, contract/part-time)
 **Input:**
 - Name: Coleman Early
@@ -35,7 +35,7 @@ Same structure as Case 1 but for a sales role. Letter should not assume or inven
 
 **What a good output should do:**
 Use hourly rate language rather than annual salary framing. Should not mention benefits, PTO, or full-time employment terms. A common failure here is the model defaulting to full-time letter language despite the contract designation.
-
+---
 ### Case 4 (**Edge Case**, Relocation)
 **Input:**
 - Name: Eric Kim
@@ -48,7 +48,7 @@ Use hourly rate language rather than annual salary framing. Should not mention b
 
 **What a good output should do:**
 Incorporate the relocation assistance naturally into the letter without inventing conditions or repayment terms. A common failure here is the model adding made-up clawback clauses or eligibility conditions that were not provided.
-
+---
 ### Case 5 (Possible Model Failure)
 **Input:**
 - Name: Trinity Santos
