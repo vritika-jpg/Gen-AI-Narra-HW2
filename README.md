@@ -7,4 +7,5 @@
 5. why this task is valuable enough to automate or partially automate: HR managers spend a good amount of time drafting offer letters when they could be using that time to do more productive work. Almost every offer letter follows a predictable structure, so automating this workflow would save time and releive the workload of HR departments.
 
 
-[Link to Video Here] (https://www.youtube.com/watch?v=SdAqanDEBI8)
+[Link to Video Here
+]([url](https://www.youtube.com/watch?v=SdAqanDEBI8))
