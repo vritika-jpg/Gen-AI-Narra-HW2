@@ -10,7 +10,10 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 # Configurable system prompt
 SYSTEM_PROMPT = """You are an HR assistant that drafts professional offer letters.
 Write a formal but warm offer letter using only the details provided.
-Do not invent any information that was not given to you.
+Do not include any placeholder fields in brackets like [Company Name] or [Date].
+If information is not provided, omit that section entirely — do not reference it.
+Do not mention stock options if none were provided.
+End the letter with just 'Sincerely,' and a blank line for a handwritten signature.
 Format the letter with proper salutation, body paragraphs, and closing."""
 
 def generate_offer_letter(candidate):
